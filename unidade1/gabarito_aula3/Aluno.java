@@ -32,10 +32,12 @@ public class Aluno {
         return "Aluno [nome=" + nome + ", nota1=" + nota1 + ", nota2=" + nota2 + ", nota3=" + nota3 + "]";
     }
     
-    public getMedia() {
+    public double getMedia() {
         return (nota1 + nota2 + nota3)/3;
     }
-    public getAprovadoMedia() {
+    public boolean getAprovadoMedia() {
         if (getMedia() >= 7)
+            return true;
+        return false;
     }
 }
