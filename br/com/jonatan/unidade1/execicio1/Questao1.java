@@ -5,7 +5,7 @@ Exercicio 1/q1 = Correção de Erros
 @since 2024-08-18
 @codigo-secreto 947969652
 */
-package br.com.ap3.distancia;
+package unidade1.execicio1;
 
 import java.util.Scanner;
 
