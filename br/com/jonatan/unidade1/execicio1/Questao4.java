@@ -1,3 +1,5 @@
+//Xico - corrigindo: o formato deveria ser javadoc
+
 /**
 Exercicio 1/q4 = Nome + Telefone
 @author jonatanDavid
@@ -7,9 +9,9 @@ Exercicio 1/q4 = Nome + Telefone
 */
 package unidade1.execicio1;
 
-public class Questao4 {
+public class Questao4 { // Xico - corrigindo: o nome da classe está incorreto.
 
-    public String Nome;
+    public String Nome; // Xico - corrigindo: atributos são em minusculo.
     public String Telefone;
 
     public String getNome() {
@@ -35,7 +37,8 @@ public class Questao4 {
 
     @Override
     public String toString() {
-        return "Questao4 [Nome=" + Nome + ", Telefone=" + Telefone + "]";
+        return "Questao4 [Nome=" + Nome + ", Telefone=" + Telefone + "]"; // Xico - corrigindo: o to string deve exibir
+                                                                          // o nome em maiuscula
     }
 
 }

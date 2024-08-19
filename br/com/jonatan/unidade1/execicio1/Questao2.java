@@ -1,3 +1,4 @@
+//Xico - corrigindo: o formato deveria ser javadoc
 /**
 Exercicio 1/q2 = numeros aleatorios
 @author jonatanDavid
@@ -13,7 +14,7 @@ import java.util.Random;
 public class Questao2 {
     public static void main(String[] args) {
         Random nRandom = new Random();
-        LinkedList<Integer> numbers = new LinkedList<Integer>();
+        LinkedList<Integer> numbers = new LinkedList<Integer>(); // Xico - Corrigindo: achei chique, em inglês fluente.
         for (int i = 0; i < 9999; i++) {
             int num = nRandom.nextInt();
             numbers.add(num);
