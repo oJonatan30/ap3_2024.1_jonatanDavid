@@ -1,5 +1,5 @@
 /**
-Exercicio 1/q2 = Correção de Erros 
+Exercicio 1/q2 = numeros aleatorios
 @author jonatanDavid
 @version 1.0
 @since 2024-08-18
